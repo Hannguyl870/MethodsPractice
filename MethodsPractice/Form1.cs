@@ -15,6 +15,9 @@ namespace MethodsPractice
         public Form1()
         {
             InitializeComponent();
+            double pi = 3.14;
+            double area = 0;
+            double radiaus = 0;
         }
 
         private void testButton_Click(object sender, EventArgs e)
@@ -42,17 +45,23 @@ namespace MethodsPractice
 
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
         /// 3. Create a method to get numbers from q3Num1Input and q3Num2Input,
         /// add them together, and then display output as follows:
         /// 
         /// 5 + 4 = 9 
 
 
-        
+
         /// 4. Create a method to calculate the area of a circle based on  
         /// the radius entered in radiusInput, then display output as follows:
         /// 
         /// The area of a circle with radius of 4 is 50.24 units squared
+        /// A = pi r^2
 
 
 
@@ -65,4 +74,12 @@ namespace MethodsPractice
 
 
     }
+    public void area()
+    {
+
+    }
+   
+       
+  
+
 }
